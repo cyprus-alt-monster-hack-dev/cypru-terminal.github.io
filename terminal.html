@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" href="app.css" type="text/css" />
+
+	</HEAD>
+	<BODY>
+	    <center>
+		<h1>Terminal</h1>
+		<p>Welcome to cyprus terminal.</p>
+		<input type='text' placeholder='Command Here' id="userInput"><br><br>
+	    <input style=width:40%; type="submit" onClick='myFunction()'>
+		</center>
+		<script>
+		    function myFunction(){
+		        alert('Attempting to connect...[We are attepmting to connect, although you can press ok to see the next dialogue.]')
+		        alert('Added resources.')
+		        setTimeout(function(){ alert("Connected to server. Enjoy your resources!"); }, 5000);
+		        }
+		</script>
+	</BODY>
+</HTML>
